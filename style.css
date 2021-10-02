@@ -132,7 +132,7 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) {
-    .top-banner, .text-block, .notify-block {
+    .top-banner, .text-block {
         width: 100%;
     }
     .top-banner {
@@ -152,6 +152,12 @@ a:hover {
     .text-block {
         font-size: 1.8rem;
         padding-left: 0rem;
+    }
+    .notify-block {
+        max-width: 550px;
+    }
+    .notify-card {
+        padding: 1rem 1.5rem 2rem 1.5rem;
     }
     .footer, a {
         margin-top: 3rem;
